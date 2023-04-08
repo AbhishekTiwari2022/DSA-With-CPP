@@ -53,7 +53,7 @@ Stack& Stack::operator=(Stack &s)
 }
 void Stack::CreateStack(int cap)
 {
-    if(ptr==NULL)
+    if(ptr!=NULL)
         delete ptr;
 
     capacity=cap;
